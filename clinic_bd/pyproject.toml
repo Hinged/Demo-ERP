@@ -1,0 +1,15 @@
+[project]
+name = "clinic_bd"
+authors = [
+    { name = "Syed", email = "farabeexr@gmail.com" },
+]
+description = "Bangladesh-focused clinic management layer on top of ERPNext + Frappe Health"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.dev-dependencies]

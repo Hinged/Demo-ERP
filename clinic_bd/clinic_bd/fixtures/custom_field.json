@@ -1,0 +1,50 @@
+[
+ {
+  "doctype": "Custom Field",
+  "name": "Patient-nid_number",
+  "dt": "Patient",
+  "fieldname": "nid_number",
+  "label": "NID Number",
+  "fieldtype": "Data",
+  "insert_after": "mobile",
+  "module": "Clinic BD",
+  "translatable": 0,
+  "description": "Bangladesh National ID. Optional, but useful for unambiguous patient lookup."
+ },
+ {
+  "doctype": "Custom Field",
+  "name": "Patient-patient_name_bangla",
+  "dt": "Patient",
+  "fieldname": "patient_name_bangla",
+  "label": "Patient Name (Bangla)",
+  "fieldtype": "Data",
+  "insert_after": "last_name",
+  "module": "Clinic BD",
+  "translatable": 0,
+  "description": "Shown on the printed prescription when filled in."
+ },
+ {
+  "doctype": "Custom Field",
+  "name": "Healthcare Practitioner-bmdc_reg_no",
+  "dt": "Healthcare Practitioner",
+  "fieldname": "bmdc_reg_no",
+  "label": "BMDC Registration No",
+  "fieldtype": "Data",
+  "insert_after": "image",
+  "module": "Clinic BD",
+  "translatable": 0,
+  "description": "Bangladesh Medical & Dental Council registration number, printed on prescriptions."
+ },
+ {
+  "doctype": "Custom Field",
+  "name": "Healthcare Practitioner-degree_summary",
+  "dt": "Healthcare Practitioner",
+  "fieldname": "degree_summary",
+  "label": "Degrees (printed on prescription)",
+  "fieldtype": "Small Text",
+  "insert_after": "bmdc_reg_no",
+  "module": "Clinic BD",
+  "translatable": 0,
+  "description": "e.g. MBBS (DU), FCPS (Medicine) - appears under the doctor's name on the prescription."
+ }
+]
